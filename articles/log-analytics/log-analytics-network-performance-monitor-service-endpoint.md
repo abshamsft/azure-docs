@@ -1,6 +1,6 @@
 ---
 title: Network Performance Monitor solution in Azure Log Analytics | Microsoft Docs
-description: Use the Service Endpoint Manager capability in Network Performance Monitor to monitor network connectivity to any endpoint that has an open TCP port.
+description: Use the Service Connectivity Monitor capability in Network Performance Monitor to monitor network connectivity to any service, application or host.
 services: log-analytics
 documentationcenter: ''
 author: abshamsft
@@ -16,11 +16,11 @@ ms.date: 02/20/2018
 ms.author: abshamsft
 
 ---
-# Service Endpoint Monitor
+# Service Connectivity Monitor
 
-You can use the Service Endpoint Monitor capability in [Network Performance Monitor](log-analytics-network-performance-monitor.md) to monitor network connectivity to any endpoint that has an open TCP port. Such endpoints include websites, SaaS applications, PaaS applications, and SQL databases. 
+You can use the Service Connectivity Monitor capability in [Network Performance Monitor](log-analytics-network-performance-monitor.md) to monitor network connectivity to any service, application or host endpoint. Such endpoints include websites, SaaS applications, PaaS applications, and SQL databases. 
 
-You can perform the following functions with Service Endpoint Monitor: 
+You can perform the following functions with Service Connectivity Monitor: 
 
 - Monitor the network connectivity to your applications and network services from multiple branch offices or locations. Applications and network services include Office 365, Dynamics CRM, internal line-of-business applications, and SQL databases.
 - Use built-in tests to monitor network connectivity to Office 365 and Dynamics 365 endpoints. 
