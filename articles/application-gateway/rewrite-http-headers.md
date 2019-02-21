@@ -87,6 +87,7 @@ This capability supports rewriting headers to the following server variables:
 
 | Supported server variables | Description                                                  |
 | -------------------------- | :----------------------------------------------------------- |
+| client_IP                  | IP address of the client from which the Application Gateway is receiving the request. |
 | ciphers_supported          | returns the list of ciphers supported by the client          |
 | ciphers_used               | returns the string of ciphers used for an established SSL connection |
 | client_port                | client port                                                  |
